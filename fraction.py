@@ -8,7 +8,7 @@ class Fraction:
 
     def __init__(self, num, den):
         if den == 0:
-            raise ValueError("знаменатель не должен быть равен нулю")
+            raise ValueError("Знаменатель не должен быть равен нулю")
 
         self.num = num
         self.den = den

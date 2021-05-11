@@ -6,7 +6,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_long_subtraction(self):
         self.assertEqual(str(Fraction.__sub__(Fraction(1111111, 44444444),
-                                              Fraction(4444444, 88888888))), '-1111121/44444444')
+                                              Fraction(4444444, 88888888))), '-1111111/44444444')
 
     def test_convert_to_periodic(self):
         self.assertEqual(str(Fraction.convert_to_periodic(Fraction(1, 3))), '0.(3)')
